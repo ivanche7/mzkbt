@@ -55,7 +55,7 @@ def bul(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"📝 **𝐈𝐬𝐦𝐢**: [{title[:35]}]({link})\n📩 **𝐊𝐚𝐲𝐧𝐚𝐤**: 𝐘𝐨𝐮𝐓𝐮𝐛𝐞\n⌚ **𝐒𝐮𝐫𝐞**: `{duration}`\n👁‍🗨 **𝐆𝐨𝐫𝐮𝐧𝐭𝐮𝐥𝐞𝐦𝐞**: `{views}`\n📔 **𝐓𝐚𝐫𝐚𝐟𝐢𝐧𝐝𝐚𝐧**: **Music**"
+        rep = f""
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(dur_arr[i]) * secmul
