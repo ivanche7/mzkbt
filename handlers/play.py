@@ -306,7 +306,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="",
         reply_markup=keyboard,
-        caption="".format(
+        caption="**⏩ 𝐒𝐚𝐫𝐤𝐢 :** {}\n**⌚ 𝐒𝐮𝐫𝐞 :** {} 𝐃𝐤\n**📝 𝐓𝐚𝐥𝐞𝐩 :** {}\n\n**• 𝐎𝐲𝐧𝐚𝐭𝐢𝐥𝐚𝐧 𝐆𝐫𝐮𝐛** \n**{}**".format(
         title, duration, message.from_user.mention(), message.chat.title
         ), )
         os.remove("final.png")
