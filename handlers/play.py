@@ -285,8 +285,8 @@ async def play(_, message: Message):
     if int(message.chat.id) in ACTV_CALLS:
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
-        photo="final.png",
-        caption="**⏩ 𝐒𝐚𝐫𝐤𝐢 :** {}\n**⌚ 𝐒𝐮𝐫𝐞 :** {} 𝐃𝐤\n**📝 𝐓𝐚𝐥𝐞𝐩 :** {}\n\n**🚧 𝐊𝐮𝐲𝐫𝐮𝐤 :** {}".format(
+        photo="",
+        caption="".format(
         title, duration, message.from_user.mention(), position
         ),
         reply_markup=keyboard)
@@ -304,9 +304,9 @@ async def play(_, message: Message):
             )
 
         await message.reply_photo(
-        photo="final.png",
+        photo="",
         reply_markup=keyboard,
-        caption="**⏩ 𝐒𝐚𝐫𝐤𝐢 :** {}\n**⌚ 𝐒𝐮𝐫𝐞 :** {} 𝐃𝐤\n**📝 𝐓𝐚𝐥𝐞𝐩 :** {}\n\n**• 𝐎𝐲𝐧𝐚𝐭𝐢𝐥𝐚𝐧 𝐆𝐫𝐮𝐛** \n**{}**".format(
+        caption="".format(
         title, duration, message.from_user.mention(), message.chat.title
         ), )
         os.remove("final.png")
