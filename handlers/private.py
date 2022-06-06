@@ -5,38 +5,6 @@ from config import BOT_USERNAME, BOT_NAME as bot
 from helpers.filters import command, other_filters2
 # Hehe tarafından düzenlendi. 
 
-@Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
-async def start(_, message: Message):
-                await message.reply_photo(
-                "https://images.app.goo.gl/MTLXTSDCA4MLHScP7",
-                caption=(f"""● **𝖬𝖾𝗋𝗁𝖺𝖻𝖺** {message.from_user.mention} \n\n● **𝖡𝖾𝗇** {bot} !\n\n● **𝖲𝖾𝗌𝗅𝗂 𝖲𝗈𝗁𝖻𝖾𝗍𝗅𝖾𝗋𝖽𝖾 müzik 𝖢𝖺𝗅𝖺𝖻𝗂𝗅𝖾𝗇 𝖡𝗈𝗍𝗎𝗆 . . !** \n\n● **𝖡𝖺𝗇 𝖸𝖾𝗍𝗄𝗂𝗌𝗂𝗓, 𝖲𝖾𝗌 𝖸𝗈𝗇𝖾𝗍𝗂𝗆 𝖸𝖾𝗍𝗄𝗂𝗌𝗂 𝗏𝖾𝗋𝗂𝗉 𝖠𝗌𝗂𝗌𝗍𝖺𝗇𝗂 𝖦𝗋𝗎𝖻𝖺 𝖤𝗄𝗅𝖾𝗒𝗂𝗇 . . !**"""),
-         reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "🎉 𝐁𝐞𝐧𝐢 𝐆𝐫𝐮𝐛𝐚 𝐄𝐤𝐥𝐞 🎉", url=f"https://t.me/Globalvideo_bot?startgroup=true"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "🇹🇷 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/Globalvideo_bot"
-                    ),
-                    InlineKeyboardButton(
-                        "📝 𝐃𝐞𝐬𝐭𝐞𝐤", url="https://t.me/Ankara_Sohbet_Grubu"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "📚 𝐊𝐨𝐦𝐮𝐭𝐥𝐚𝐫" , callback_data= "cbbilgi"
-                    ),
-                    InlineKeyboardButton(
-                        "📝 𝐊𝐚𝐧𝐚𝐥", url=f"https://t.me/Ankara_sohbet_grubu"
-                    )
-                ]
-                
-           ]
-        ),
-    )
   
 
 
