@@ -108,7 +108,7 @@ async def cbstart(_, query: CallbackQuery):
                         "📚 𝐊𝐨𝐦𝐮𝐭𝐥𝐚𝐫" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "📝 𝐊𝐚𝐧𝐚𝐥", url=f"https://t.me/ankara_sohbet_grubu"
+                        "📝 𝐊𝐚𝐧𝐚𝐥", url=f"https://t.me/sohbet_tanisma_gruplari"
                     )
                 ]
                 
