@@ -21,7 +21,7 @@ async def bilgi(_, message: Message):
                          "🗯️ 𝖠𝗇𝖺 𝖬𝖾𝗇𝗎 ", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "📩 𝐃𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", url="https://t.me/hurbeyyy")
+                         "📩 𝐃𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", url="https://t.me/sohbet_tanisma_gruplari")
                  ]
              ]
          )
@@ -43,7 +43,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "📩 𝐃𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", url="https://t.me/hurbeyyy")
+            "📩 𝐃𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", url="https://t.me/sohbet_tanisma_gruplari")
         ]
       ]
      ))
@@ -56,7 +56,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "📩 𝐃𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", url="https://t.me/hurbeyyy")
+                         "📩 𝐃𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", url="https://t.me/sohbet_tanisma_gruplari")
                  ],
                  [
                      InlineKeyboardButton(
@@ -74,7 +74,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/hurbeyyy")
+                         "⚙ Geliştirici", url="https://t.me/sohbet_tanisma_gruplari")
                  ],
                  [
                      InlineKeyboardButton(
@@ -100,7 +100,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🇹🇷 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/Globalvideo_bot"
                     ),
                     InlineKeyboardButton(
-                        "📝 𝐃𝐞𝐬𝐭𝐞𝐤", url="https://t.me/hurbeyyy"
+                        "📝 𝐃𝐞𝐬𝐭𝐞𝐤", url="https://t.me/sohbet_tanisma_gruplari"
                     )
                 ],
                 [
