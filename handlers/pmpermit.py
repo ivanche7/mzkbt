@@ -18,7 +18,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                "Merhaba, Ben özel sohbetlerde sohbet etmiyorum sizleri @Ankara_Sohbet_Grubu Ana grubumuzda sohbetlere davet ediyorum",
+                "Merhaba, Ben özel sohbetlerde sohbet etmiyorum sizleri @Arkadaslik_sohbet_tanisma_grubu Ana grubumuzda sohbetlere davet ediyorum",
             )
             return
  
